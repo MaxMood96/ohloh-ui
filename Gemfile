@@ -31,7 +31,7 @@ gem 'ohloh_scm', '2.4.0'
 gem 'open4'
 gem 'paperclip', '~> 5.3'
 gem 'pg', '0.20'
-gem 'rails', '>= 4.2'
+gem 'rails', '>= 5.2.8.1'
 gem 'rails-html-sanitizer', '~> 1.3.0'
 gem 'ransack', '1.8.4'
 gem 'rbnacl', '~>3.2'
@@ -113,5 +113,5 @@ end
 
 group :development, :staging do
   gem 'letter_opener'
-  gem 'letter_opener_web', '~> 1.2.0'
+  gem 'letter_opener_web', '~> 1.2.3'
 end
