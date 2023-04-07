@@ -42,7 +42,7 @@ gem 'redis-rails', '>= 5.0.2'
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', '> 1.28'
 gem 'sass-rails'
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.0.8'
 gem 'simplemde-rails'
 gem 'sprockets-rails', '~> 2.3.3'
 gem 'sql_tracker'
