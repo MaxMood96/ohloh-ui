@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-gem 'activeadmin', '1.0.0'
+gem 'activeadmin', '3.1.0'
 gem 'activerecord-postgres-dump-schemas'
 gem 'airbrake', '~> 5.5'
 gem 'aws-sdk', '~> 2.3'
@@ -70,7 +70,7 @@ group :development do
   gem 'guard-haml_lint'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   gem 'guard-rubocop'
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.7.0'
   gem 'quiet_assets'
 end
 
