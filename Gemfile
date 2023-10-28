@@ -78,7 +78,7 @@ group :test do
   gem 'flog'
   gem 'haml_lint', '~> 0.21'
   gem 'm', '~> 1.5.0'
-  gem 'minitest-rails'
+  gem 'minitest-rails', '>= 7.1.0'
   gem 'mocha'
   gem 'ruby_parser'
   gem 'simplecov'
