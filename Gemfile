@@ -70,7 +70,7 @@ group :development do
   gem 'guard-haml_lint'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   gem 'guard-rubocop'
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.7.0'
   gem 'quiet_assets'
 end
 
