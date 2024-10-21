@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-gem 'activeadmin', '1.0.0'
+gem 'activeadmin', '3.0.0'
 gem 'activerecord-postgres-dump-schemas'
 gem 'airbrake', '~> 5.5'
 gem 'aws-sdk', '~> 2.3'
@@ -31,9 +31,9 @@ gem 'ohloh_scm', '2.4.0'
 gem 'open4'
 gem 'paperclip', '~> 5.3'
 gem 'pg', '0.20'
-gem 'rails', '>= 4.2'
+gem 'rails', '>= 7.0.0'
 gem 'rails-html-sanitizer', '~> 1.3.0'
-gem 'ransack', '1.8.4'
+gem 'ransack', '2.3.1'
 gem 'rbnacl', '~>3.2'
 gem 'rbnacl-libsodium'
 gem 'recaptcha', require: 'recaptcha/rails'
@@ -41,7 +41,7 @@ gem 'redcarpet'
 gem 'redis-rails', '>= 5.0.2'
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', '> 1.28'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'sidekiq'
 gem 'simplemde-rails'
 gem 'sprockets-rails', '~> 2.3.3'
@@ -113,5 +113,5 @@ end
 
 group :development, :staging do
   gem 'letter_opener'
-  gem 'letter_opener_web', '~> 1.2.0'
+  gem 'letter_opener_web', '~> 1.3.0'
 end
