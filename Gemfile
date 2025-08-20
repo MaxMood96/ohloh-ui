@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-gem 'activeadmin', '1.0.0'
+gem 'activeadmin', '1.3.1'
 gem 'activerecord-postgres-dump-schemas'
 gem 'airbrake', '~> 5.5'
 gem 'aws-sdk', '~> 2.3'
@@ -9,7 +9,7 @@ gem 'bcrypt_pbkdf', '~> 1.0'
 gem 'brakeman', '>= 4.7.1'
 gem 'bundler-audit'
 gem 'bunny'
-gem 'clearance'
+gem 'clearance', '>= 1.17.0'
 gem 'coffee-rails'
 gem 'coffee-script-source', '~>1.8.0'
 gem 'datadog_api_client'
@@ -31,9 +31,9 @@ gem 'ohloh_scm', '2.4.0'
 gem 'open4'
 gem 'paperclip', '~> 5.3'
 gem 'pg', '0.20'
-gem 'rails', '>= 4.2'
+gem 'rails', '>= 7.1.5.2'
 gem 'rails-html-sanitizer', '~> 1.3.0'
-gem 'ransack', '1.8.4'
+gem 'ransack', '1.8.6'
 gem 'rbnacl', '~>3.2'
 gem 'rbnacl-libsodium'
 gem 'recaptcha', require: 'recaptcha/rails'
@@ -99,7 +99,7 @@ group :development, :test do
   gem 'jasmine-rails'
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'rails-erd'
+  gem 'rails-erd', '>= 1.6.0'
   gem 'rb-readline', '~> 0.5.5'
   gem 'selenium-webdriver'
   gem 'spinach'
@@ -108,10 +108,10 @@ group :development, :test do
 end
 
 group :production, :staging do
-  gem 'activerecord-nulldb-adapter', require: false
+  gem 'activerecord-nulldb-adapter', '>= 0.5.0', require: false
 end
 
 group :development, :staging do
   gem 'letter_opener'
-  gem 'letter_opener_web', '~> 1.2.0'
+  gem 'letter_opener_web', '~> 1.3.0'
 end
